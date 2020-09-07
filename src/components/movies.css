@@ -1,0 +1,88 @@
+.movies {
+}
+
+h1 {
+	color: skyblue;
+	/* margin: auto; */
+	display: flex;
+	justify-content: center;
+	box-shadow: skyblue;
+}
+
+.movies-list {
+	/* margin: 1rem; */
+	border-bottom: 1px solid#dde;
+	padding: 1rem;
+}
+
+.grid {
+	width: 700px;
+	display: grid;
+	grid-template-columns: 10% 10% 80%;
+	/* border: 1px solid black; */
+	text-overflow: ellipsis;
+	gap: 1rem;
+}
+.btn {
+	background-color: skyblue;
+	border-radius: 0;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+	margin: 0;
+	border-radius: 0.2rem;
+	margin-top: 0.5rem;
+}
+
+.vote {
+	display: grid;
+	/* flex-direction: column; */
+
+	justify-content: center;
+	/* padding-top: 1rem; */
+	text-align: center;
+}
+.number {
+	align-self: center;
+}
+
+img {
+	height: 140px;
+	width: 70px;
+	object-fit: cover;
+	border-radius: 0.2rem;
+}
+
+.triangle-up {
+	margin: auto;
+
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 20px solid #555;
+}
+.triangle-down {
+	margin: auto;
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 20px solid #555;
+}
+
+h2 {
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.viewm {
+	color: skyblue;
+}
+span:nth-of-type(1) {
+	color: rgb(146, 151, 151);
+}
+span {
+	text-transform: capitalize;
+}
